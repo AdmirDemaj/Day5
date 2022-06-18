@@ -1,0 +1,30 @@
+{
+  "name": "fastify-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/server",
+    "dev": "nodemon src/server",
+    "test": "jest --coverage --runInBand",
+    "test:watch": "jest --watch --coverage --runInBand"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/postgres": "^5.0.0",
+    "@fastify/swagger": "^7.3.0",
+    "dotenv": "^16.0.1",
+    "envalid": "^7.3.1",
+    "fastify": "^4.0.2",
+    "jest": "^28.1.1",
+    "nodemon": "^2.0.16",
+    "pg": "^8.7.3"
+  },
+  "devDependencies": {
+    "eslint": "^8.17.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.26.0"
+  }
+}
