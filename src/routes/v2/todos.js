@@ -80,7 +80,7 @@ const getToDO = {
         schema: {
             body: {
                 type : "object",
-                required: ["name", "desc"],
+                required: ["name", "description", "gross_amount"],
                 properties: {
                     name:{type: "string"},
                     description: {type: "string"},
